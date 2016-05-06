@@ -1,0 +1,36 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script src="js/jquery-1.8.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script>
+ window.onload=function(){
+/*         var mecon=$(".text-messcon").val();
+         var reg=new RegExp("<br />","g");
+          mecon=mecon.replace(reg,"\r\n");
+         
+         $(".text-messcon").val(mecon);*/
+         
+       function texthy(obj){
+         var mecon=$(obj).val();
+         var reg=new RegExp("<br />","g");
+          mecon=mecon.replace(reg,"\r\n");
+         
+         $(obj).val(mecon);
+         	
+         }
+         
+         texthy(".text-messcon");
+ }
+      
+</script>
+</head>
+<body>
+	<textarea name="" class="text-messcon" rows="20" cols="100">
+		中国国际教育网讯：面对美国留学H1B和工作签<br />证申请越来越激烈的竞争态势，每个同学<br />都竭尽所能地希望能找到一份和专业相关的实习工作，并争取能留在那里。下面小智为大家介绍下美国实习机会最多的五大城市<br />，希望对大家有所参考，从源头选校时就开始规划
+	</textarea>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+/* CSS Document */
+body,h1,h2,h3,ul,li,dl,dt,dd,p,form{margin:0; padding:0;}
+body{background:#fff; font-family:'瀹嬩綋'; font-size:12px; color:#333;}
+img,input{border:none;}
+ul{ list-style-type:none;}
+a{ text-decoration:none; color:#666;}
+a:hover{ text-decoration:underline;}
+.clearfix:after{ display:block; content:"."; clear:both; visibility:hidden; height:0;}
+.clearfix{zoom:1;}
+.fl{ float:left; display:inline;}
+.fr{ float:right; display:inline;}
+.dn{ display:none;}
+.db{ display:block;}
+.vm{ vertical-align:middle;}
+.tc{ text-align:center;}
+.tdu{ text-decoration:underline;}
+.mr5{margin-right:5px;}
+.font777{ color:#777;}
+.fz14{ font-size:14px;}
+.fz18{font-size:18px;}
+.fz20{font-size:20px;}
+.fz24{ font-size:24px;}
+.fz26{ font-size:26px;}
+.fz32{ font-size:32px;}
+.mt34{margin-top:34px;}
+.mt23{ margin-top:23px;}
+.mt25{margin-top:25px;}
+.mr8{margin-right:8px;}
+.ml8{margin-left:8px;}
+.mr10{margin-right:10px;}
+.ml5{margin-left:7px;}
+.ml10{margin-left:10px;}
+.mr12{margin-right:12px;}
+.mr18{margin-right:18px;}
+.mr30{margin-right:30px;}
+.pl20{padding-left:20px;}
+.pr20{padding-right:20px;}
+.c0{color:#000;}
+.c666{ color:#666;}
+.c8{color:#888;}
+.c999{color:#999;}
+.c7f{color:#7f7f7f;} 
+.c97{ color:#0097ff;}
+.cf{color:#fff;}
+.cf00{color:#f00;}
+.bg333{ background:#333;}
+.mr33{margin-right:33px;}
+.mr47{margin-right:47px;}
+.pt29{ padding-top:29px;}
+.pb15{padding-bottom:15px;}
+.h140{ height:140px;}
+.pl217{ padding-left:217px;}
+.mr60{margin-right:55px;}
+.mr50{margin-right:50px;}
+.ml20{margin-left:20px;}
+.ml15{margin-left:15px;}
+.mt30{margin-top:30px;}
+.mt45{margin-top:45px;}
+.mt25{margin-top:25px;}
+.mt15{margin-top:15px;}
+.pt30{padding-top:30px;}
+.pb10{ padding-bottom:10px;}
+.pb5{ padding-bottom:5px;}
+.pb20{padding-bottom:20px;}
+.pb25{ padding-bottom:25px;}
+.mb5{margin-bottom:5px;}
+.mb10{margin-bottom:10px;}
+.mb35{margin-bottom:35px;}
+.mb15{margin-bottom:15px;}
+.pt10{padding-top:10px;}
+.mt20{margin-top:20px;}
+.mb12{margin-bottom:12px;}
+.mb25{margin-bottom:25px;}
+.lh20{line-height:20px;}
+.mr132{margin-right:132px;}
+.pt8{padding-top:8px;}
+.pl7{ padding-left:7px;}
+.h29{ height:29px;}
+.h400{ height:400px;}
+.com-width{width:1000px; margin:0 auto;}
+.mb165{margin-bottom:165px;}
+.w672{width:672px;overflow:hidden;}
+.w580{width:580px;}
+.w150{width:150px;}
+.w300{width:300px;}
+.w530{width:530px;}
+.pl420{padding-left:420px;}
+.fw{ font-weight:normal;}
+.fb{font-weight:bold;}
+.bob-ddd{border-bottom:1px solid #ddd;}
+.tn{ text-decoration:none;}
+

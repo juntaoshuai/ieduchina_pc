@@ -1,0 +1,403 @@
+@charset "utf-8";
+
+.mt10 {
+    margin-top: 10px;
+}
+
+html { background-image: url(about:blank); background-attachment: fixed; }
+
+body { font-family: Simsun; }
+h4 { margin: 0; padding: 0; }
+.mt5 { margin-top: 5px; }
+.mt10 { margin-top: 10px; }
+.w320 { width: 320px; }
+.w330 { width: 330px; }
+.w360 { width: 360px; }
+.w270 { width: 270px; }
+.w175 { width: 175px; }
+.w180 { width: 180px; }
+.w127 { width: 127px; }
+.w240 { width: 240px; }
+.w190 { width: 190px; }
+.ellipsis { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+/*public*/
+/*a { color: #253751; text-decoration: none; }
+a:hover { color: #c00; text-decoration: underline; }*/
+.main-wrapper { width: 1000px; margin-left: auto; margin-right: auto; }
+#iedu-header { height: 30px; line-height: 30px; background: #f2efef; }
+#iedu-header a { color: #5d5d5d; font-family: Microsoft Yahei; }
+#iedu-header .tougao { width: 74px; height: 49px; position: absolute; left: 0; top: 0; background: url(http://www.ieduchina.com/statics/images/newindex/tg-ico.png) no-repeat 0 0; }
+#iedu-header .fr a { color: #868686; }
+#iedu-header .fr span { width: 74px; height: 30px; position: relative; }
+#iedu-search h1 { padding-top: 11px; }
+#iedu-search, #iedu-search form input { font-family: Microsoft Yahei; padding: 0; }
+#iedu-search{margin-top:-10px !important;}
+#iedu-search h2 { font-size: 32px; color: #27aec2; margin-right: 16px; }
+#iedu-search .area { padding-top: 41px; margin-left: 37px; }
+#iedu-search .area a { font-size: 14px; color: #5d5d5d; margin-right: 8px; }
+#iedu-search .area .active { color: #636363; }
+#iedu-search .area .active a { background: url(http://www.ieduchina.com/statics/images/newindex/icon-pos.png) 0 0 no-repeat; padding-left: 15px; color: #636363; }
+#iedu-search .area span { margin-right: 5px; position: relative; top: 21px; }
+#iedu-search form { padding-top: 50px; }
+#iedu-search form .txt { width: 254px; height: 28px; line-height: 30px\9; border: 1px solid #ccc; border-right: none; font-size: 14px; color: #8f8f8f; padding-left: 5px; background: #fff; outline: none; }
+#iedu-search form .sub-btn { width: 56px; height: 30px; line-height: 30px; background: #27aec2; font-size: 16px; color: #fff; }
+#iedu-nav { height: 50px; background: #27aec2; font-family: Microsoft Yahei; }
+#iedu-nav li { height: 50px; background: url(http://www.ieduchina.com/statics/images/newindex/nav_bg.gif) right top repeat-y; padding: 0 9px; _width: 150px; }
+#iedu-nav li.active, #iedu-nav li.current { background-color: #107c8b; }
+#iedu-nav li h3 { font-size: 20px; color: #fff; line-height: 50px; }
+#iedu-nav li h3 a { display: block; color: #fff; height: 50px; }
+#iedu-nav li p { line-height: 22px; padding: 2px 9px 0;}
+#iedu-nav li p a { display: block; font-size: 14px; color: #fff; }
+.banner-news { height: 90px; margin: 10px 0 10px; padding: 5px 10px; overflow: hidden; *zoom:1;
+border: 1px solid #ddd; }
+.banner-news .news-left, .banner-news .news-right { width: 108px; overflow: hidden; line-height: 22px; }
+.banner-news .news-left, .banner-news .news-right p { overflow: hidden; white-space: nowrap; }
+.banner-news .news-left { float: left; margin-right: 11px; }
+.banner-news .news-right { float: right; }
+.banner-news p a { color: #253751; }
+.ad730 { float: left; position: relative; }
+.iedu-main, .iedu-main-box { width: 680px; float: left; }
+.iedu-side { width: 300px; float: right; }
+.iedu-main-left { width: 390px; float: left; }
+.iedu-main-right { width: 270px; float: right; }
+.todayfocus { height: 34px; }
+.todayfocus dt { width: 91px; background: #f14119; font: 18px/34px Microsoft Yahei; color: #fff; position: relative; text-align: center; }
+.todayfocus dt img { position: absolute; width: 10px; height: 12px; right: -10px; top: 11px; }
+.todayfocus dd { width: 588px; height: 32px; color: #242526; line-height: 32px; border: 1px solid #e1e1e1; border-left: none; overflow: hidden; position: relative; }
+.iedu-main-left .todayfocus dd { width: 298px; }
+.todayfocus dd ul { width: 238px; margin-left: 58px; *margin-left:43px;
+}
+.todayfocus dd ul li { height: 32px; overflow: hidden; }
+.todayfocus dd strong { color: #f14119; font-size: 14px; position: absolute; left: 15px; }
+.iedu-main-left .view-all { font-size: 14px; color: #27aec2; }
+.iedu-list { overflow: hidden; *zoom:1;
+}
+.iedu-list li { height: 30px; line-height: 30px; background: url(http://www.ieduchina.com/statics/images/newindex/dot.gif) left center no-repeat; text-indent:9px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; width: 100%; }
+.iedu-list li a, .iedu-list li span { color: #253751; font-size: 14px; }
+.iedu-list li a:hover { color: #c50805; }
+.iedu-list li.hot a { font-weight: bold; font-family: Microsoft Yahei; font-size: 16px; }
+.ieduline { border-bottom: 1px solid #ebebeb; padding-bottom: 8px; }
+.iedu-list1 li { float: left; background: none; padding-left: 0; height: 24px; line-height: 24px; }
+.iedu-list1 li.hot { padding-bottom: 7px; float: none; }
+.iedu-list1 li.hot a { font-family: Microsoft Yahei; font-size: 16px; }
+.iedu-list2 li { background: url(http://www.ieduchina.com/statics/images/newindex/dot.gif) left center no-repeat; text-indent:9px; height: 32px; line-height: 32px; }
+.iedu-title1 { text-align: right; border-bottom: 2px solid #e1e1e1; position: relative; height: 32px; line-height: 32px; }
+.iedu-title1 h2 { font: 18px/28px Microsoft Yahei; color: #242526; border-bottom: 2px solid #27aec2; position: absolute; left: 0; top: 4px; }
+.iedu-title1 a { color: #27aec2; font-family: Microsoft Yahei; }
+#iedu-banner1 { width: 270px; height: 189px; position: relative; margin-top: 14px; }
+#iedu-banner1 ul li { width: 270px; height: 189px; position: absolute; left: 0; top: 0; }
+#iedu-banner1 .playbar { text-align: center; position: absolute; width: 117px; height: 4px; overflow: hidden; left: 67px; bottom: 6px; z-index: 2; }
+#iedu-banner1 .playbar span { width: 31px; height: 4px; background: #fff; overflow: hidden; float: left; display: inline; margin: 0 4px; cursor: pointer; }
+#iedu-banner1 .playbar span.active { background: #27aec2; }
+#iedu-banner1 .bg { width: 100%; height: 37px; background: #242526; opacity: 0.7; filter: alpha(opacity=70); position: absolute; left: 0; bottom: 0; z-index: 1; }
+#iedu-banner1 .text { position: absolute; width: 100%; height: 16px; font-size: 14px; font-weight: bold; overflow: hidden; color: #fff; z-index: 2; bottom: 17px; text-align: center; }
+#iedu-banner1 img { width: 270px; height: 189px; }
+.iedu-artlist { *padding-bottom:13px;
+}
+.iedu-artlist li { border-bottom: 1px solid #e1e1e1; padding-bottom: 14px; margin-bottom: 13px; }
+.iedu-artlist li h3 { font-family: Microsoft Yahei; font-size: 16px; color: #020202; height: 25px; line-height: 25px; overflow: hidden; }
+.iedu-artlist li h3 a { color: #020202; }
+.iedu-artlist li p { line-height: 18px; color: #868686; height: 54px; overflow: hidden; }
+.iedu-side-box { border: 1px solid #e1e1e1; padding: 0 5px; }
+.iedu-main-title { text-align: right; border-bottom: 2px solid #e1e1e1; overflow: hidden; *zoom:1;
+padding: 4px 0 5px; }
+.iedu-main-title h2 { font: 18px/22px Microsoft Yahei; border-left: 4px solid #27aec2; float: left; padding-left: 8px; }
+.iedu-main-title a { font-size: 12px; color: #27aec2; font-family: Microsoft Yahei; }
+.iedu-active-list li { vertical-align: top; overflow: hidden; height: 32px; line-height: 32px; }
+.iedu-active-list li span { float: left; }
+.iedu-active-list .col1 { width: 51px; height: 16px; line-height: 16px; text-align: center; overflow: hidden; background: #8e8e8e; color: #fff; margin: 8px 7px 0 0; }
+.iedu-active-list .col2 { width: 230px; }
+.iedu-active-list .active { background: #f14119; }
+.iedu-active-list a { color: #253751; }
+.iedu-active-list a:hover, .iedu-hot .hot-item h3 a:hover, .iedu-artlist li h3 a:hover, .banner-news p a:hover, .tuwen-list .hd h3 a:hover, .friend-link dd a:hover, .footer-nav dd a:hover, .selector .s-value a:hover, .s-list .s-hd h3 a:hover { color: #c50805; }
+.iedu-hot .hot-item { margin-bottom: 0; }
+.iedu-hot .hot-item h3 { margin-bottom: 8px; font-family: Microsoft Yahei; font-size: 16px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 288px; font-weight: bold; }
+.iedu-hot .hot-item h3 a { color: #242526; }
+.iedu-hot .hot-item dl { padding-bottom: 7px; }
+.iedu-hot .hot-item dt { float: left; width: 100px; }
+.iedu-hot .hot-item dd { width: 181px; float: right; line-height: 20px; color: #666; }
+.tabs { font-family: Microsoft Yahei; position: relative; z-index: 1; border-bottom: 2px solid #27aec2; }
+.tabs li { float: left; height: 32px; line-height: 32px; text-align: center; }
+.tabs li a { color: #242526; display: block; padding: 0 7px; font-size: 16px; }
+.tabs li a:hover, .tabs .active a { text-decoration: none; color: #fff; background: #27aec2; }
+.tabs .active a { color: #fff; }
+.tabs .tab-more { font-size: 12px; color: #27aec2; position: absolute; right: 0; padding: 0; }
+.tabs .tab-more:hover { background: none; color: #27aec2; padding: 0; }
+.tabs-con { width: 680px; overflow: hidden; display: none; }
+.iedu-imglist { margin-right: -25px; overflow: hidden; *zoom:1;
+padding-bottom: 11px; border-bottom: 1px solid #d7d7d7; }
+.iedu-imglist li { float: left; display: inline; position: relative; width: 211px; height: 147px; margin-right: 24px; z-index: 0; }
+.iedu-imglist li img { width: 211px; height: 147px; }
+.iedu-imglist li b { position: absolute; left: 0; bottom: 0; height: 26px; width: 100%; background: #000; opacity: 0.7; filter: alpha(opacity=70); z-index: 1; }
+.iedu-imglist li p { width: 100%; height: 26px; line-height: 26px; position: absolute; left: 0; bottom: 0; font-weight: bold; font-size: 14px; z-index: 999; text-align: center; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+.iedu-imglist li p a { color: #fff; }
+.iedu-imglist li p a:hover { text-decoration: none; }
+.recomm-title, .recomm-title-a { border-bottom: 2px solid #27aec2; height: 31px; }
+.recomm-title h2, .recomm-title-a h2 { font: bold 16px/29px Microsoft Yahei; color: #242526; display: inline-block; *display:inline;
+*zoom:1;
+margin-left: 4px; }
+.recomm-title h2 { vertical-align: middle; }
+.recomm-title-a h2 { position: relative; top: -2px; }
+.recomm-title i { display: inline-block; *display:inline;
+*zoom:1;
+width: 26px; height: 24px; background: url(http://www.ieduchina.com/statics/images/newindex/icon-oversea.png) 0 center no-repeat; vertical-align: middle; }
+.img-scroll { width: 1000px; height: 168px; position: relative; overflow: hidden; }
+.img-scroll ul { width: 9999px; }
+.img-scroll li { width: 241px; height: 168px; margin-right: 12px; float: left; display: inline; position: relative; }
+.img-scroll li img { width: 241px; height: 168px; }
+.img-scroll li b { position: absolute; left: 0; bottom: 0; z-index: 1; width: 100%; height: 32px; background: #000; opacity: 0.7; filter: alpha(opacity=70); }
+.img-scroll .scrotxt { position: absolute; width: 231px; left: 0; bottom: 0; padding: 2px 5px 7px; color: #fff; z-index: 2; }
+.img-scroll .scrotxt h3 { font-size: 14px; }
+.img-scroll .scrotxt h4 { font-size: 12px; font-weight: normal; }
+.img-scroll .iedu-prev, .img-scroll .iedu-next { width: 24px; height: 57px; position: absolute; top: 50%; margin-top: -28px; z-index: 1; background: url(http://www.ieduchina.com/statics/images/newindex/playbtn.png) no-repeat; }
+.img-scroll .iedu-prev { background-position: 0 0; left: 0; }
+.img-scroll .iedu-next { background-position: -24px 0; right: 0; }
+.tabs2 li {margin-right:12px;}
+.iedu-imglist2 { border-bottom: 1px solid #ccc; }
+.iedu-imglist2 li, .iedu-imglist2 li img { width: 270px; height: 189px; }
+.iedu-artlist2 li h3 a { color: #242526; }
+.tuwen-list { margin-right: -40px; *overflow:hidden;
+*zoom:1;
+}
+.tuwen-list .tuwen-list-item { width: 320px; float: left; margin-right: 40px; }
+.tuwen-list img { width: 200px; height: 140px; }
+.tuwen-list .hd { height: 31px; }
+.tuwen-list .hd h3 a { font-family: Microsoft Yahei; font-size: 16px; color: #020202; }
+.tuwen-list .bd p { width: 110px; line-height: 20px; color: #868686; height: 140px; overflow: hidden; }
+.tuwen-list-line { border-bottom: 1px solid #d7d7d7; }
+.iedu-artlist3 li h3 { font-size: 18px; }
+.tabs-con1 { display: none; }
+.tabs3 { border-bottom: none; margin-right: -9px; *overflow:hidden;
+*zoom:1;
+}
+.tabs3 li { background: #e8e8e8; width: 90px; height: 35px; font: 16px/35px Microsoft Yahei; text-align: center; float: left; margin-right: 9px; color: #242526; cursor: pointer; }
+.tabs3 li.active { background: url(http://www.ieduchina.com/statics/images/newindex/tabs_bg.png) 0 0 no-repeat; color: #fff; height: 42px; }
+/*#iedu-footer { border-top: 1px solid #ccc; }
+.friend-link dt, .footer-nav dl dt { font-size: 14px; color: #020202; font-weight: bold; }
+.friend-link dd { font-size: 14px; margin-top: 19px; }
+.friend-link dd a { margin-right: 35px; color: #575757; }
+.footer-nav { margin-top: 24px; }
+.footer-nav dl { float: left; display: inline; line-height: 32px; border-right: 1px solid #ebebeb; height: 150px; }
+.footer-nav dl.last {border-right:none;margin-left:35px;}
+.footer-nav dd a { color: #575757; }
+.footer-nav dl.w240 dd a { display: block }*/
+#iedu-footer { border-top: 1px solid #ccc; }
+.friend-link dt, .footer-nav dl dt { font-size: 14px; color: #020202; font-weight: bold; }
+.friend-link dd { font-size: 14px; margin-top: 19px; }
+.friend-link dd a { margin-right: 35px; color: #575757; }
+.footer-nav { margin-top: 24px; }
+.footer-nav dl { float: left; display: inline; line-height: 32px; border-right: 1px solid #ebebeb; height: 150px;
+padding:0 50px;}
+.footer-nav dl dt{text-align:center;}
+.footer-nav dl.last {border-right:none;}
+.footer-nav dd a { color: #575757;display: block }
+
+.copyright { border-top: 1px solid #ccc; }
+.copyright p { line-height: 24px; }
+.copyright p span { color: #666; }
+.g-footer-record { margin: 5px auto 10px; overflow: hidden; width: 536px; }
+.g-footer-record p { border: 1px solid #d2d2d2; display: inline; float: left; font-size: 12px; height: 50px; line-height: 20px; margin: 6px; overflow: hidden; width: 120px; }
+.g-footer-record .fn-fl { padding: 3px; float: left; }
+.g-footer-record .fn-fr { padding: 5px 3px 0; width: 72px; float: right; }
+/*login*/
+.top-login-box { width: 268px; border: 1px solid #bbb; position: absolute; background-color: #fff; left: 50%; top: 30px; margin-left: 205px !important; z-index: 501; color: #666; display: none; line-height: normal; }
+.login-box .close, .recomm-box img, .top-login-box .close { position: absolute; width: 26px; height: 26px; top: 0; right: -26px; cursor: pointer; }
+.top-login-box .close { top: -1px; right: -27px; }
+.top-login-box form { padding: 14px 30px 0; border-bottom: 1px solid #dddddd; }
+.login-box .pointer, .top-login-box .pointer { position: absolute; width: 9px; height: 6px; left: 54px; top: -6px; }
+.top-login-box .pointer { left: 230px; }
+.login-box .txt, .top-login-box .txt { width: 288px; height: 28px; border: 1px solid #ddd; padding-left: 10px; color: #a9a9a9; outline: none; }
+.top-login-box .txt { width: 198px; height: 26px; line-height: 26px; padding: 0; }
+.login-btn { width: 298px; height: 35px; background: url(http://www.ieduchina.com/statics/images/newindex/newindex/login-btn.gif) 0 0 no-repeat; color: #fff; font-size: 16px; }
+.login-box strong { font-size: 16px; color: #666; }
+.art-qq { width: 90px; height: 26px; display: inline-block; background: url(http://www.ieduchina.com/statics/images/newindex/newindex/qq_login.gif) 0 0 no-repeat; padding-right: 18px; }
+.art-sina { width: 90px; height: 26px; display: inline-block; background: url(http://www.ieduchina.com/statics/images/newindex/newindex/weibo_login.gif) 0 0 no-repeat; }
+.other_login { padding: 7px 30px 9px; }
+.other_login .other { font-size: 12px; color: #999; font-weight: normal; }
+.guest-pub { border: 1px solid #848484; color: #666; font-size: 12px; width: 150px; height: 25px; vertical-align: middle; }
+.login-btn { width: 298px; height: 35px; background: url(http://www.ieduchina.com/statics/images/newindex/login-btn.gif) 0 0 no-repeat; color: #fff; font-size: 16px; }
+.top-login-box .login_close { position: absolute; background: url(http://www.ofweek.com/ofweek/images/btn-close.jpg) 0 0 no-repeat; width: 18px; height: 17px; right: 0; top: 0; cursor: pointer; }
+/*新页面*/
+#iedu-mainNav { float: left; height: 50px; padding: 8px 0 0 10px; font-family: Microsoft Yahei; }
+#iedu-mainNav li { height: 50px; background: url(http://www.ieduchina.com/statics/images/newindex/nav_bg.gif) right top repeat-y; padding: 0 15px; _width: 150px; }
+#iedu-mainNav li.active a { color: #0B889A; }
+#iedu-mainNav li.current a { color: #0B889A; }
+#iedu-mainNav li h3 { font-size: 20px; color: #595757; line-height: 50px; }
+#iedu-mainNav li h3 a { display: block; color: #595757; height: 50px; }
+#iedu-mainNav li p { line-height: 22px; padding: 2px 14px 0; *padding:2px 12px 0;
+}
+#iedu-mainNav li p a { display: block; font-size: 14px; color: #595757; }
+#iedu-mainNav .main-wrapper { width: 820px; }
+/*about us*/
+.ad-about { margin-top: 20px; }
+.about-nav { _padding-top: 15px; }
+.about-nav a { font-size: 16px; color: #000; display: block; width: 80px; height: 46px; line-height: 46px; text-decoration: none; }
+.about-nav a:hover { text-decoration: none; }
+.about-nav a i { width: 4px; height: 14px; line-height: 46px; background: #000; overflow: hidden; margin-right: 10px; display: inline-block; visibility: hidden; }
+.about-bd { padding: 10px 0 20px 15px; margin-top: -17px; }
+.about-bd h1 { font-size: 24px; margin-top: 20px; margin-bottom: 10px; }
+.about-bd p { font-size: 16px; line-height: 24px; }
+.about-bd { width: 875px; }
+/*全国 教育页*/
+.main-ad { width: 1000px; height: 90px; margin: 10px 0 12px; }
+.main-ad .leftAd { width: 251px; }
+.main-ad .rightAd { width: 729px; }
+/*猎头版块*/
+.job-search form { width: 484px; }
+.job-search form input { outline: none; text-indent: 11px; padding: 0; font-size: 14px; color: #9b9b9b; }
+.job-search form .job-name, .job-search .district { border: 2px solid #27aec2; float: left; }
+.job-search form .job-name { background: #fff; }
+.job-search .district { background: #eee; position: relative; z-index: 2; }
+.job-search .district input { width: 118px; border-right: 1px solid #a8b2bb; background: #fff; }
+.job-search .district ul { position: absolute; left: -2px; top: 38px; z-index: 2; width: 142px; border: 2px solid #ccc; border-top: none; background: #fff; display: none; }
+.job-search .district ul li { padding-left: 12px; font-size: 14px; color: #9c9c9c; height: 24px; line-height: 24px; cursor: pointer; }
+.job-search .district ul li.active { background: #27aec2; color: #fff; }
+.w33{width:33px !important;}
+.w37 { width: 37px !important; }
+.w1000 { width: 1000px !important; }
+.w676 { width: 676px; }
+.w716 { width: 716px !important; }
+.w274 { width: 274px !important; }
+.w396 { width: 396px; }
+.w218 { width: 218px; }
+.w142 { width: 142px; }
+.w152 { width: 152px !important; }
+.w156 { width: 156px !important; }
+.h36 { height: 36px; line-height: 36px\9; }
+.h40 { height: 40px; line-height: 40px; }
+.h52 { height: 52px; line-height: 52px\9; }
+.h56 { height: 56px !important; line-height: 56px; }
+.w96 { width: 96px; }
+.w140 { width: 140px; }
+.job-search .submit { background: #27aec2; border: none; font-size: 16px; color: #fff; font-family: Microsoft Yahei; text-indent: 0; text-align: center; }
+.job-search .service { background: -webkit-linear-gradient(top, #ffffff, #eeeded); /* Safari 5.1 - 6.0 */ background: -o-linear-gradient(top, #ffffff, #eeeded); /* Opera 11.1 - 12.0 */ background: -moz-linear-gradient(top, #ffffff, #eeeded); /* Firefox 3.6 - 15 */ background: linear-gradient(top, #ffffff, #eeeded); -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#FFFFFF, endColorstr=#eeeded)"; *background:#f8f8f8;
+width: 160px; height: 40px; font: 14px/17px Microsoft Yahei; color: #27aec2; padding: 0 13px; }
+.job-search .area-select { width: 23px; text-align: center; cursor: pointer; }
+.job-search .area-select i { width: 0; height: 0; font-size: 0px; line-height: 0px; border-style: solid dashed dashed dashed; border-width: 5px; border-color: #27aec2 transparent transparent transparent; display: inline-block; vertical-align: middle; }
+.job-search .area-select span { height: 100%; display: inline-block; vertical-align: middle; }
+.job-list li.hd { background: #f8f8f8; border-bottom: none; }
+.job-list li.hd span { color: #242526; }
+.job-list li { width: 100%; height: 35px; line-height: 35px; border-bottom: 1px dashed #ddd; vertical-align: top; overflow: hidden; *zoom:1;
+}
+.job-list li span { float: left; display: inline; font-size: 12px; color: #868686; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-right: 30px; }
+.job-list li span a { color: #242526; }
+.job-list li span a:hover { color: #c50805; }
+.job-list .col1 { width: 188px; text-indent: 6px; height: 30px;}
+.job-list .col2 { width: 133px; height: 30px;}
+.job-list .col3 { width: 91px; height: 30px;}
+.job-list .col4 { width: 68px; height: 30px;}
+.job-list .col5 { width: 80px; margin-right: 0px;height: 30px; }
+/*猎头栏目页*/
+.hunter-tabs { border-bottom: 1px solid #636363; }
+.hunter-tabs li a:hover { background: #fff; color: #464646; }
+.hunter-tabs li a { color: #464646; font-size: 20px; }
+.newjob-list li { width: 100%; height: 47px; line-height: 47px; border-bottom: 1px solid #e1e1e1; vertical-align: top; overflow: hidden; *zoom:1;
+}
+.newjob-list li span { float: left; display: inline; font-size: 12px; color: #696868; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-right: 40px; }
+.newjob-list li span a { color: #696868; }
+.newjob-list li span a:hover { color: #c50805; }
+.newjob-list .col1 { width: 200px; text-indent: 4px; height: 30px;}
+.newjob-list .col2 { width: 180px; height: 30px;}
+.newjob-list .col3 { width: 120px; height: 30px;}
+.newjob-list .col4 { width: 50px;height: 30px;}
+.newjob-list .col5 { width: 50px; height: 30px;}
+.newjob-list .col6 { width: 70px; color: #db3944; font-size: 14px; font-family: Microsoft Yahei; height: 30px;}
+.newjob-list .col7 { width: 89px; margin-right: 0; }
+.newjob-list .col7 a, .jobdesc .toujl { width: 80px; height: 30px; line-height: 30px; text-align: center; color: #fff; font-size: 14px; background: #27aec2; display: block; margin-top: 8px; }
+.jobdesc .toujl { margin-right: 8px; margin-top: 2px; }
+.newjob-list .col7 a:hover { color: #fff; text-decoration: none; }
+.job-search .hunter-service { width: 253px; height: 45px; font: 14px/17px Microsoft Yahei; color: #27aec2; padding: 11px 8px 0 13px; }
+.job-search .hunter-service span { margin-left: 9px; }
+.hunter1-box .job-search .district ul { top: 54px; }
+
+/*职位详情页*/
+.jobdesc { color: #242526; }
+.jobdesc h2 { font: normal 18px/36px Microsoft Yahei; }
+.jobdesc .bd { background: #f8f8f8; position: relative; }
+.jobdesc .innerWrap { padding: 6px 0 18px 5px; }
+.jobdesc .row1 { font-family: Microsoft Yahei; margin-bottom: 13px; }
+.jobdesc .row1 strong { font-size: 24px; margin-right: 20px; }
+.jobdesc .row1 span { background: url(../images/icon-pos1.png) 0 center no-repeat; font-size: 16px; padding-left: 20px; }
+.jobdesc .row2 span { font-size: 12px; color: #464646; margin-right: 30px; }
+.jobdesc .zw_left { width: 900px; }
+.zw_left .row2{line-height:18px;}
+.jobdesc .toujl:hover { text-decoration: none; color: #fff; }
+.jobdesc .job-tags { margin-top: 13px; }
+.jobdesc .job-tags li { float: left; display: inline; height: 32px; line-height: 32px; border: 1px solid #e1e1e1; margin-right: 30px; padding: 0 8px; font-size: 14px; color: #27aec2; }
+.zw-detail { border-bottom: 1px solid #d7d7d7; padding: 25px 0 27px 0;line-height:22px; }
+.zw-detail h3, .com-intro h3 { font-family: Microsoft Yahei; font-size: 14px; color: #464646; }
+.zw-detail dl { color: #868686; }
+.zw-detail dl dt { height: 21px; margin-top: 12px; }
+.zw-detail dl dd, .com-intro p { line-height: 18px; color: #868686; }
+.com-intro{line-height: 20px;}
+.com-intro .tag { color: #464646; margin-top: 5px; line-height: 30px; }
+.jobdesc .fix { position: fixed; _position: absolute; left: 0; top: 0; _top:expression(documentElement.scrollTop + "px");
+z-index: 100; width: 100%; border-bottom: 1px solid #ebebeb; box-shadow: 0 0 5px #888; }
+/*职位搜索结果页*/
+.selector { border: 1px solid #d7d7d7; background: #fcfcfc; overflow: hidden; margin-top: 23px; padding-top: 2px; }
+.selector .s-wrap { height: 42px; line-height: 42px; }
+.selector .s-key { font-size: 14px; color: #9b9b9b; padding-left: 17px; }
+.selector .s-value a { font-size: 12px; color: #464646; margin-right: 25px; }
+.selector .s-value .nolimit { padding: 0 13px 0 27px; }
+.selector .s-value .active{color: #27aec2; font-weight: bold;}
+.send-resume { width: 80px; height: 30px; line-height: 30px; text-align: center; color: #fff; font-size: 14px; background: #27aec2; display: block }
+.send-resume:hover { text-decoration: none; }
+.s-list { border-top: 1px solid #27aec2 }
+.s-list li { border-bottom: 1px dashed #d7d7d7; padding-bottom: 5px; }
+.s-list .s-hd { font-size: 16px; color: #464646; height: 30px; line-height: 30px; margin-top: 10px; margin-bottom: 7px; overflow: hidden; }
+.s-list .s-hd h3 { width: 240px;margin-right:10px; }
+.s-list .s-hd h3 a { color: #27aec2; }
+.s-list .s-hd p { width: 660px; }
+.s-list .s-hd p span { margin-right: 16px; float: left; display: inline; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+.s-list .s-hd .col1 { width: 240px; }
+.s-list .s-hd .col2 { width: 130px; }
+.s-list .s-hd .col3 { width: 70px; }
+.s-list .s-hd .col4 { width: 64px; }
+.s-list .s-hd .col5 { width: 76px; }
+.s-list .s-bd a { color: #27aec2; }
+.s-list .s-bd .row1 { color: #9b9b9b; margin-bottom: 13px;}
+.s-list .s-bd .row1 span { margin-right: 35px; }
+.s-list .s-bd p { line-height: 24px; }
+/*企业提交需求页面*/
+.order .order-hd { height: 50px; background: #eff5fb; }
+.order .order-hd h2 { font: normal 18px/50px Microsoft Yahei; color: #464646; }
+.order .w-form { margin-top: -17px; }
+.order .w-form h3 { font-weight: normal; font-size: 12px; color: #5d5d5d; margin-left: 25px; }
+.order .w-form h3 span { color: #27aec2; }
+.w-form-item { margin: 17px 36px 17px 20px; font-size: 12px; white-space: nowrap; color: #5d5d5d; }
+.w-form-item .label { display: inline-block; width: 80px; line-height: 25px; text-align: right; color: #000; vertical-align: middle; }
+.w-form-item .label-radio { margin-right: 10px; width: auto; text-align: left; }
+.w-form-item .label-sex { color: #a4a4a4; line-height: 25px; display: inline-block; }
+.w-form-item .label-sex span, .w-form-item .label-sex input { display: inline-block; vertical-align: middle; }
+.w-form-item .label-sex input { width: 13px; height: 13px; position: relative; top: -1px; }
+.w-form-item .required { margin-right: 5px; color: #F00; }
+.w-form-item .input, .w-form-item .textarea { display: inline-block; margin-left: 0; text-indent: 5px; width: 258px; height: 30px; line-height: 30px; border: 1px solid #dcdcdc; color: #a4a4a4; vertical-align: middle; outline: none; }
+.w-form-item .file { border: 0; padding: 0 10px 0 0; }
+.w-form-item .radio { width: 13px; height: 13px; vertical-align: middle; }
+.w-form-item .textarea { padding: 5px; width: 418px; height: 76px; vertical-align: top; }
+.w-form-item .button { width: 168px; height: 48px; text-align: center; color: #fff; font: 16px/48px 'Microsoft YaHei', 'SimHei'; background: #27aec2; cursor: pointer;  *margin-left: 7px;
+border: none; }
+.w-form-item .button[disabled='disabled'] { border-color: #A9A9A9; background: -webkit-gradient(linear, left top, left bottom, from(#C8C8C8), to(#C0C0C0)); background: -moz-linear-gradient(top, #C8C8C8, #C0C0C0); background: -o-linear-gradient(top, #C8C8C8, #C0C0C0);  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C8C8C8', endColorstr='#C0C0C0');
+background: -ms-linear-gradient(top, #C8C8C8, #C0C0C0); background: linear-gradient(top, #C8C8C8, #C0C0C0); cursor: default; }
+.form-tips { background: url(../images/line.gif) 0 0 no-repeat; padding-left: 36px; height: 211px; }
+.form-tips dt { font: bold 14px/26px 'Microsoft YaHei'; color: #000; margin-bottom: 9px; }
+.form-tips dd { background: url(../images/dot.gif) 0 center no-repeat; padding-left: 16px; line-height: 26px; color: #5d5d5d; }
+
+/*about us*/
+.ad-about{margin-top:20px;}
+.about-nav {_padding-top:15px;}
+.about-nav a{font-size:16px; color:#000; display:block;width:96px;height:46px; line-height:46px; text-decoration:none;}
+.about-nav a:hover{ text-decoration:none;}
+.about-nav a i{width:4px; height:14px; line-height:46px;background:#000; overflow:hidden; margin-right:10px; display:inline-block; visibility:hidden;}
+.about-bd{padding:10px 0 20px 15px;margin-top: -17px;}
+.about-bd h1{font-size: 24px;margin-top:20px;margin-bottom: 10px;}
+.about-bd p{font-size: 16px; line-height:24px;}
+.about-bd{width:875px;}
+.about-en-bd p{line-height:18px;padding:10px 0;}
+
+/*2016-4-19 by shuai*/
+#iedu-nav li { position: relative; z-index: 999999; }
+.moreAbroad-list { width: 224px; position: absolute; z-index: 999999; top: 50px; background-color: #27aec2; left: -1px; border-left: 1px solid #53d8ec; border-right: 1px solid #0b889a; background: #107c8b; height: 28px; font: 14px/18px Simsun; padding-left: 58px; display: none; }
+.moreAbroad-list a { color: #fff; margin-right: 12px; }
+.breadnav{font-size: 14px;margin-top:31px;color:#b4b4b4;margin-left:-7px;}
+.breadnav a,.breadnav span{color:#b4b4b4;margin:0 7px;}
