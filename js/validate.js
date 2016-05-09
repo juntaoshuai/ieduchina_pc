@@ -310,7 +310,7 @@ $(function(){
   
   $.validator.addMethod("pwdRequired", function(value, element) {
         return this.optional(element)
-            || (/^(\d|\w|\D)[^*]{6,20}$/.test(value));
+            || (/^(\d|\w|\D)[^*]{5,19}$/.test(value));
     }, "支持6-20位数字、字母和标点符号");
   //手机号码验证
     jQuery.validator.addMethod("isMobile", function(value, element) {
