@@ -268,40 +268,31 @@ $(function(){
         onfocusout: function(element){
             $(element).valid();
         },
-        onkeyup: true,   
-       // errorClass:'infoerror',
-       // success:'Validform_right',
-//      success: function(label) {
-//        label.removeClass("infoerror").addClass("Validform_right").siblings(label).remove();
-//    } ,
-/*         groups:{
-            births:"birth_year birth_month"
-        },*/
-         errorPlacement : function(error, element) {
-         	
-         	
-        },
-        //errorClass : "error",
-        //focusInvalid : true,
         submitHandler : function(form) {
-        	//$("input[name=speciality],input[name=jobs]").blur();
             form.submit();
         },
+         success: function(label) {
+    // label.removeClass("error").addClass("Validform_right");
+    label.html("<img src='images/regimg/correct.gif'>");
+    } ,
         rules : {
-            account : {
-                required : true
+            account:{
+                required : true,
+                accountRequire:true
+                
             },
             pwd:{
-            	required:true
+            	required:true,
+            	pwdRequired:true
             },
             repwd:{
                 required:true,
                 equalTo:"#pwd"
             }
         },
-        messages : {
-           account : {
-                required : "邮箱或手机不能为空"
+        messages: {
+           account: {
+                required:"邮箱或手机不能为空"
             },
 
             pwd:{
@@ -309,18 +300,36 @@ $(function(){
             },
             
             repwd:{
-                required:"请输入确认密码！",
-                equalTo:"两次密码必须相同"
+                required:"请再次输入密码！",
+                equalTo:"您2次输入的密码不一致"
             }
            
         }
        
     });
   
+  $.validator.addMethod("pwdRequired", function(value, element) {
+        return this.optional(element)
+            || (/^(\d|\w|\D)[^*]{6,20}$/.test(value));
+    }, "支持6-20位数字、字母和标点符号");
+  //手机号码验证
+    jQuery.validator.addMethod("isMobile", function(value, element) {
+        var length = value.length;
+        return this.optional(element)
+            || (length == 11 && 
+/^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1})|(17[8156370])|(14[759]))+\d{8})$/.test(value));
+            
+    }, "请输入11位手机号");
   
-  
-  
-  
+   jQuery.validator.addMethod("accountRequire", function(value, element) {
+        var length = value.length,
+            emailReg = /^[A-Za-z0-9-_\.]+\@([A-Za-z0-9-_]+\.)+[A-Za-z0-9]{2,6}$/,
+            mobileReg=/^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1})|(17[8156370])|(14[759]))+\d{8})$/;
+             
+        return this.optional(element)
+            || ( emailReg.test(value) || mobileReg.test(value));
+            
+    }, "邮箱或手机格式不正确");
   
   
   

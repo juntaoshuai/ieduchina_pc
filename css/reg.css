@@ -52,4 +52,8 @@
 .regform  dd{position: relative;}
 .regform  dd input{width:258px;height: 28px; line-height:28px\9;border:1px solid #d7d7d7; text-indent: 8px; background: transparent; position: relative;z-index: 1;}
 .regform .regbtn{margin-left: 75px;width:260px;}
-.regform .reg-placeholder{color:#a4a4a4;position:absolute;left:9px;top:1px;height:28px;font-size:12px;line-height:28px;}
+.regform .reg-placeholder{color:#a4a4a4;position:absolute;left:9px;top:1px;height:28px;font-size:12px;line-height:28px; display: none;}
+
+.regform input.error{border-color: #27aec2;}
+.regform label.error{color:#27aec2;margin-left:12px;}
+label.Validform_right{background:url(../images/regimg/correct.gif) 0 0 no-repeat; padding-left:30px; width:13px;height:11px;}
