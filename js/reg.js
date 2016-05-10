@@ -40,9 +40,9 @@ function placeholder(input){
 placeholder($(".regform :text"));
 placeholder($(".regform :password"));
 	
-	
 	$.job1001EmailTips({
-		'account':{className:'email-tips-list'}
+		'account':{className:'email-tips-list'},
+		 
 	});
 	
 	

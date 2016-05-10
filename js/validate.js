@@ -307,6 +307,80 @@ $(function(){
         }
        
     });
+    
+    //完善信息页面
+    	$("#completeInfoForm").validate({
+        debug : false,
+        onfocusout: function(element){
+            $(element).valid();
+        },
+        submitHandler : function(form) {
+            form.submit();
+        },
+         success: function(label) {
+    // label.removeClass("error").addClass("Validform_right");
+    label.html("<img src='images/regimg/correct.gif'>");
+    } ,
+        rules : {
+            username:{
+                required : true,
+                nameRequire:true
+                
+            },
+            mobile:{
+            	required:true,
+            	isMobile:true,
+            	
+            },
+            email:{
+                required:true,
+                email:true,
+                maxlength:50,
+//             remote:{
+//              type:"POST",
+//              url:"",
+//              data:{
+//                username:function(){
+//                	return $("#name").val();
+//                }
+//             } 
+//            } 
+            },
+            job:{
+            	required:true,
+            	jobRequire:true,
+            	rangelength:[2,20]
+            },
+            nickname:{
+            	required:true,
+            	nicknameRequired:true
+            }
+        },
+        messages: {
+            username:{
+                required : "请输入中文或英文（限20个字）"
+            },
+            mobile:{
+            	required:"请输入正确的11位手机号码",
+            	isMobile:"请输入正确的11位手机号码"
+            },
+            email:{
+                required:"请输入邮箱",
+                email:"邮箱格式不正确",
+                maxlength:"邮箱长度超过限定",
+                //remote:$.format("该邮箱已经存在，请更换")
+            },
+            job:{
+            	required:"请填写您的职业或岗位（2-20个字）",
+            	rangelength:"请填写您的职业或岗位（2-20个字）"
+            },
+            nickname:{
+            	required:"请输入中文、英文、标点符号（2-20个字）"	
+            }
+           
+        }
+       
+    });
   
   $.validator.addMethod("pwdRequired", function(value, element) {
         return this.optional(element)
@@ -331,7 +405,24 @@ $(function(){
             
     }, "邮箱或手机格式不正确");
   
+   jQuery.validator.addMethod("nameRequire", function(value, element) {
+        var length = value.length;
+        return this.optional(element)
+            || (/^[\u4e00-\u9fa5A-Za-z]{1,20}$/.test(value));
+            
+    }, "请输入中文或英文（限20个字）");
   
+  jQuery.validator.addMethod("jobRequire", function(value, element) {
+        var length = value.length;
+        return this.optional(element)
+            || (/^[\u4e00-\u9fa5A-Za-z]{1,20}$/.test(value));
+            
+    }, "请输入中文或英文（2-20个字）");
+    
+      $.validator.addMethod("nicknameRequired", function(value, element) {
+        return this.optional(element)
+            || (/^[\d\w\D]{2,20}$/.test(value));
+    }, "请输入中文、英文、标点符号（2-20个字）");
   
 });
 
