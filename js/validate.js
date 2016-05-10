@@ -329,13 +329,13 @@ $(function(){
             },
             mobile:{
             	required:true,
-            	isMobile:true,
+            	isMobile:true
             	
             },
             email:{
                 required:true,
                 email:true,
-                maxlength:50,
+                maxlength:50
 //             remote:{
 //              type:"POST",
 //              url:"",
@@ -367,7 +367,7 @@ $(function(){
             email:{
                 required:"请输入邮箱",
                 email:"邮箱格式不正确",
-                maxlength:"邮箱长度超过限定",
+                maxlength:"邮箱长度超过限定"
                 //remote:$.format("该邮箱已经存在，请更换")
             },
             job:{
@@ -421,7 +421,7 @@ $(function(){
     
       $.validator.addMethod("nicknameRequired", function(value, element) {
         return this.optional(element)
-            || (/^[\d\w\D]{2,20}$/.test(value));
+            || (/^\D{2,20}$/.test(value));
     }, "请输入中文、英文、标点符号（2-20个字）");
   
 });
